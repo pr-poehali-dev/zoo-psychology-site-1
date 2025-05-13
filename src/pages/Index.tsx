@@ -14,7 +14,6 @@ const Index = () => {
           <nav className="hidden md:flex space-x-6">
             <a href="#about" className="hover:text-[#E6D2B5] transition-colors">О себе</a>
             <a href="#services" className="hover:text-[#E6D2B5] transition-colors">Услуги</a>
-            <a href="#videos" className="hover:text-[#E6D2B5] transition-colors">Видео</a>
             <a href="#contact" className="hover:text-[#E6D2B5] transition-colors">Контакты</a>
           </nav>
           <Button className="md:hidden" variant="ghost">
@@ -59,36 +58,6 @@ const Index = () => {
               <p className="text-lg">
                 Регулярно повышаю квалификацию, участвую в международных конференциях и семинарах по поведению животных.
               </p>
-              
-              <div className="mt-6 flex space-x-4">
-                <a 
-                  href="https://instagram.com/zoopsycholog" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="flex items-center text-[#8B5A2B] hover:text-[#6B4423] transition-colors"
-                >
-                  <Icon name="Instagram" className="h-5 w-5 mr-2" />
-                  <span>Instagram</span>
-                </a>
-                <a 
-                  href="https://vk.com/zoopsycholog" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="flex items-center text-[#8B5A2B] hover:text-[#6B4423] transition-colors"
-                >
-                  <Icon name="MessageCircle" className="h-5 w-5 mr-2" />
-                  <span>ВКонтакте</span>
-                </a>
-                <a 
-                  href="https://t.me/zoopsycholog" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="flex items-center text-[#8B5A2B] hover:text-[#6B4423] transition-colors"
-                >
-                  <Icon name="Send" className="h-5 w-5 mr-2" />
-                  <span>Telegram</span>
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -134,61 +103,6 @@ const Index = () => {
                 </p>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Video Section */}
-      <section id="videos" className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-10 text-center text-[#5E5E5E]">Полезные видео</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex flex-col space-y-4">
-              <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-lg">
-                <iframe 
-                  className="w-full h-[300px] rounded-lg"
-                  src="https://www.youtube.com/embed/GRZj5OErp7A" 
-                  title="Как понять язык тела собаки" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <h3 className="text-xl font-semibold text-[#5E5E5E]">Как понять язык тела собаки</h3>
-              <p className="text-gray-700">
-                В этом видео я рассказываю о базовых сигналах, которые собаки используют для коммуникации с нами и другими животными.
-              </p>
-            </div>
-            
-            <div className="flex flex-col space-y-4">
-              <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-lg">
-                <iframe 
-                  className="w-full h-[300px] rounded-lg"
-                  src="https://www.youtube.com/embed/PKffm2uI4dk" 
-                  title="Стресс у кошек: как распознать и помочь" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <h3 className="text-xl font-semibold text-[#5E5E5E]">Стресс у кошек: как распознать и помочь</h3>
-              <p className="text-gray-700">
-                Большинство владельцев не замечают признаки стресса у своих кошек. В этом видео я объясняю, на что обратить внимание и какие меры предпринять.
-              </p>
-            </div>
-          </div>
-          
-          <div className="mt-12 text-center">
-            <a 
-              href="https://www.youtube.com/channel/UCzooopsycholog" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center text-[#8B5A2B] hover:text-[#6B4423] text-lg font-medium"
-            >
-              <Icon name="Youtube" className="h-6 w-6 mr-2" />
-              Больше видео на моем YouTube канале
-            </a>
           </div>
         </div>
       </section>
@@ -241,54 +155,6 @@ const Index = () => {
                 <Icon name="Clock" className="h-6 w-6 text-[#8B5A2B]" />
                 <p className="text-lg">Пн-Пт: 10:00 - 19:00, Сб: 10:00 - 15:00</p>
               </div>
-              
-              <div className="pt-4 flex space-x-6">
-                <a 
-                  href="https://instagram.com/zoopsycholog" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-[#8B5A2B] hover:text-[#6B4423] transition-colors"
-                  aria-label="Instagram"
-                >
-                  <Icon name="Instagram" className="h-8 w-8" />
-                </a>
-                <a 
-                  href="https://vk.com/zoopsycholog" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-[#8B5A2B] hover:text-[#6B4423] transition-colors"
-                  aria-label="ВКонтакте"
-                >
-                  <Icon name="MessageCircle" className="h-8 w-8" />
-                </a>
-                <a 
-                  href="https://facebook.com/zoopsycholog" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-[#8B5A2B] hover:text-[#6B4423] transition-colors"
-                  aria-label="Facebook"
-                >
-                  <Icon name="Facebook" className="h-8 w-8" />
-                </a>
-                <a 
-                  href="https://youtube.com/channel/UCzooopsycholog" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-[#8B5A2B] hover:text-[#6B4423] transition-colors"
-                  aria-label="YouTube"
-                >
-                  <Icon name="Youtube" className="h-8 w-8" />
-                </a>
-                <a 
-                  href="https://t.me/zoopsycholog" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-[#8B5A2B] hover:text-[#6B4423] transition-colors"
-                  aria-label="Telegram"
-                >
-                  <Icon name="Send" className="h-8 w-8" />
-                </a>
-              </div>
             </div>
 
             <div className="mt-10">
@@ -334,41 +200,14 @@ const Index = () => {
               <p>Давыдова Анастасия</p>
             </div>
             <div className="flex space-x-4">
-              <a 
-                href="https://instagram.com/zoopsycholog" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="hover:text-[#E6D2B5] transition-colors"
-                aria-label="Instagram"
-              >
+              <a href="#" className="hover:text-[#E6D2B5]">
                 <Icon name="Instagram" className="h-6 w-6" />
               </a>
-              <a 
-                href="https://vk.com/zoopsycholog" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="hover:text-[#E6D2B5] transition-colors"
-                aria-label="ВКонтакте"
-              >
-                <Icon name="MessageCircle" className="h-6 w-6" />
-              </a>
-              <a 
-                href="https://facebook.com/zoopsycholog" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="hover:text-[#E6D2B5] transition-colors"
-                aria-label="Facebook"
-              >
+              <a href="#" className="hover:text-[#E6D2B5]">
                 <Icon name="Facebook" className="h-6 w-6" />
               </a>
-              <a 
-                href="https://t.me/zoopsycholog" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="hover:text-[#E6D2B5] transition-colors"
-                aria-label="Telegram"
-              >
-                <Icon name="Send" className="h-6 w-6" />
+              <a href="#" className="hover:text-[#E6D2B5]">
+                <Icon name="MessageCircle" className="h-6 w-6" />
               </a>
             </div>
           </div>
